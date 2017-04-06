@@ -1,0 +1,20 @@
+{
+  "name": "awesomemotive/emma",
+  "description": "An API wrapper for myEmma",
+  "require": {
+    "php": ">=5.3.3"
+  },
+  "license": "GPL-2.0+",
+  "authors": [
+    {
+      "name": "AwesomeMobive",
+      "email": "info@awesomemotive.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "AwesomeMotive\\EmmaPHP\\": "src/"
+    }
+  },
+  "minimum-stability": "stable"
+}
